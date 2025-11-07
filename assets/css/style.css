@@ -258,21 +258,49 @@ hr {
 
 /* Footer */
 .footer {
-    background-color: #2c5f7f;
-    color: white;
+    background-color: #1a3a4d;
+    color: #e0e0e0;
     text-align: center;
-    padding: 30px 20px;
-    margin-top: 60px;
-}
-
-.footer a {
-    color: white;
-    border-bottom-color: white;
+    padding: 40px 20px;
+    margin-top: 0;
+    border-top: 4px solid #2c5f7f;
 }
 
 .footer p {
-    color: white;
-    margin: 10px 0;
+    color: #e0e0e0;
+    margin: 12px 0;
+    font-size: 0.95em;
+    line-height: 1.8;
+}
+
+.footer p:first-child {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.footer strong {
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.footer a {
+    color: #66b3ff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    padding: 2px 4px;
+}
+
+.footer a:hover {
+    color: #ffffff;
+    border-bottom-color: #66b3ff;
+    background-color: rgba(102, 179, 255, 0.1);
+}
+
+.footer p:last-child {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Badges */
