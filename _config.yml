@@ -6,9 +6,7 @@ description: Complete money management app for Android
 url: "https://aethersolutionsph.github.io"
 baseurl: ""
 
-# Theme settings - No Jekyll theme, using custom CSS
-theme: null
-
+plugins: []
 # Build settings
 markdown: kramdown
 kramdown:
