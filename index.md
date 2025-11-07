@@ -1230,7 +1230,7 @@ We're committed to helping you take control of your finances. If you find the ap
 *Last Updated: November 2025*
 *Finance Manager v1.0.0*
 
-    </div>
+</div>
 </div>
 
 <!-- Footer -->
