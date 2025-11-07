@@ -259,7 +259,7 @@ hr {
 /* Footer */
 .footer {
     background-color: #1a3a4d;
-    color: #e0e0e0;
+    color: #ffffff;
     text-align: center;
     padding: 40px 20px;
     margin-top: 0;
@@ -267,7 +267,7 @@ hr {
 }
 
 .footer p {
-    color: #e0e0e0;
+    color: #ffffff;
     margin: 12px 0;
     font-size: 0.95em;
     line-height: 1.8;
@@ -281,6 +281,7 @@ hr {
 .footer strong {
     color: #ffffff;
     font-size: 1.2em;
+    font-weight: 600;
 }
 
 .footer a {
