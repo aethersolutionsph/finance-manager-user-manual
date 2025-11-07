@@ -1,0 +1,1 @@
+# finance-manager-user-manual
