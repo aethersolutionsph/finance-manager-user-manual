@@ -1,0 +1,531 @@
+/* Finance Manager - Unified Documentation Styling */
+/* Matching the delete-account page design */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #2c5f7f;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-brand {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    opacity: 0.8;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.nav-links a.active {
+    background-color: rgba(255,255,255,0.2);
+    font-weight: 600;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+h1 {
+    color: #2c5f7f;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #2c5f7f;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #2c5f7f;
+    font-size: 1.8em;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #2c5f7f;
+    font-size: 1.4em;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+h4 {
+    color: #2c5f7f;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs and Lists */
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Links */
+a {
+    color: #2c5f7f;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+a:hover {
+    border-bottom-color: #2c5f7f;
+}
+
+/* Info Boxes */
+.info-box {
+    background-color: #e8f4f8;
+    border-left: 4px solid #2c5f7f;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 4px;
+}
+
+.warning-box {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 4px;
+}
+
+.success-box {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 4px;
+}
+
+.error-box {
+    background-color: #f8d7da;
+    border-left: 4px solid #dc3545;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 4px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table th {
+    background-color: #2c5f7f;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Code Blocks */
+code {
+    background-color: #f4f4f4;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    color: #c7254e;
+}
+
+pre {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 25px 0;
+}
+
+pre code {
+    background-color: transparent;
+    color: #f8f8f2;
+    padding: 0;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #2c5f7f;
+    padding-left: 20px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #666;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 40px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c5f7f;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+}
+
+.footer a {
+    color: white;
+    border-bottom-color: white;
+}
+
+.footer p {
+    color: white;
+    margin: 10px 0;
+}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #2c5f7f;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin: 5px 5px 5px 0;
+}
+
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}
+
+.badge-info {
+    background-color: #17a2b8;
+}
+
+/* Premium Badge */
+.premium-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2c5f7f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #1e4a63;
+    transform: translateY(-2px);
+    border-bottom-color: transparent;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+}
+
+/* Details/Summary (Collapsible Sections) */
+details {
+    background-color: #f8f9fa;
+    border-left: 4px solid #2c5f7f;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: 600;
+    color: #2c5f7f;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+
+summary:hover {
+    color: #1e4a63;
+}
+
+details[open] summary {
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-brand {
+        margin-bottom: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .nav-links a {
+        width: 100%;
+        text-align: left;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    table th,
+    table td {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .nav-bar {
+        display: none;
+    }
+
+    .container {
+        box-shadow: none;
+        max-width: 100%;
+    }
+
+    .footer {
+        background-color: white;
+        color: black;
+    }
+
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+
+    .container {
+        background-color: #2d2d2d;
+        color: #e0e0e0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #66b3ff;
+    }
+
+    p, li {
+        color: #d0d0d0;
+    }
+
+    table td {
+        border-bottom-color: #444;
+    }
+
+    table tr:hover {
+        background-color: #3a3a3a;
+    }
+
+    .info-box {
+        background-color: #2c4a5a;
+    }
+
+    .warning-box {
+        background-color: #5a4a2c;
+    }
+
+    details {
+        background-color: #3a3a3a;
+    }
+
+    code {
+        background-color: #3a3a3a;
+    }
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+/* Scrollbar Styling (Webkit browsers) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2c5f7f;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e4a63;
+}

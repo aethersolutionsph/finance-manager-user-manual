@@ -1,0 +1,56 @@
+# GitHub Pages Configuration for Finance Manager Documentation
+
+# Site settings
+title: Finance Manager
+description: Complete money management app for Android
+url: "https://aethersolutionsph.github.io"
+baseurl: ""
+
+# Theme settings - No Jekyll theme, using custom CSS
+theme: null
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - SCREENSHOT_GUIDE.md
+  - SCREENSHOT_CHECKLIST.md
+  - Gemfile
+  - Gemfile.lock
+
+# App-specific information
+app:
+  name: Finance Manager
+  version: 1.0.0
+  package: com.aetherapps.finance_manager
+  playstore_url: https://play.google.com/store/apps/details?id=com.aetherapps.finance_manager
+  support_email: aether.solutionsph@gmail.com
+
+# Navigation links
+navigation:
+  privacy_url: https://aethersolutionsph.github.io/finance-manager-privacy/
+  manual_url: https://aethersolutionsph.github.io/finance-manager-user-manual/
+  delete_url: https://aethersolutionsph.github.io/finance-manager-delete-account/
+  support_email: aether.solutionsph@gmail.com
+
+# Color scheme (matching delete-account page)
+colors:
+  primary: "#2c5f7f"
+  background: "#f5f5f5"
+  warning: "#fff3cd"
+  info: "#e8f4f8"

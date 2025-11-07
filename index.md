@@ -4,10 +4,34 @@ title: Finance Manager - User Manual
 description: Complete guide for Finance Manager - Your personal finance tracking app
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="nav-bar">
+    <div class="nav-container">
+        <a href="https://aethersolutionsph.github.io/finance-manager-privacy/" class="nav-brand">Finance Manager</a>
+        <div class="nav-links">
+            <a href="https://aethersolutionsph.github.io/finance-manager-privacy/">Privacy Policy</a>
+            <a href="https://aethersolutionsph.github.io/finance-manager-user-manual/" class="active">User Manual</a>
+            <a href="https://aethersolutionsph.github.io/finance-manager-delete-account/">Delete Account</a>
+            <a href="mailto:aether.solutionsph@gmail.com">Support</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
 # Finance Manager - User Manual
 
-**Version 1.0.0**
-**Complete Money Management Made Simple**
+<span class="badge">Version 1.0.0</span>
+<span class="badge badge-success">Complete Money Management Made Simple</span>
 
 ---
 
@@ -64,9 +88,17 @@ The app has **4 main tabs** at the bottom:
 - **📈 Stats**: Detailed charts and analytics
 - **⚙️ Settings**: App preferences and account management
 
+<!-- Screenshot: Welcome screen with navigation tabs -->
+<!-- ![App Navigation](assets/images/screenshots/home-dashboard.png) -->
+<!-- *Main navigation showing the 4 tabs at the bottom* -->
+
 ---
 
 ## Home Dashboard
+
+<!-- Screenshot: Full home dashboard view -->
+<!-- ![Home Dashboard](assets/images/screenshots/home-dashboard.png) -->
+<!-- *Home screen showing accounts, transactions, and quick action button* -->
 
 ### What You See
 
@@ -116,11 +148,19 @@ The app has **4 main tabs** at the bottom:
 
 ### Adding a Transaction
 
+<!-- Screenshot: Add transaction form -->
+<!-- ![Add Transaction](assets/images/screenshots/add-transaction.png) -->
+<!-- *New transaction form showing all input fields* -->
+
 1. **Tap the + Button**
    - Located at bottom right of Home screen
 
 2. **Select Transaction Type**
    - Choose: Expense, Income, or Transfer
+
+<!-- Screenshot: Transaction type selection -->
+<!-- ![Transaction Types](assets/images/screenshots/transaction-types.png) -->
+<!-- *Selecting between Expense, Income, and Transfer* -->
 
 3. **Fill in Details**
    - **Amount**: Use built-in calculator or type directly
@@ -137,6 +177,10 @@ The app has **4 main tabs** at the bottom:
 5. **Tap Save**
 
 ### Transaction Categories
+
+<!-- Screenshot: Category selection modal -->
+<!-- ![Category Selection](assets/images/screenshots/category-selection.png) -->
+<!-- *Category picker showing all available categories* -->
 
 **Expense Categories:**
 - 🛒 Shopping
@@ -296,6 +340,10 @@ Track your crypto holdings:
 ### Accessing Stats
 
 Tap the **📈 Stats** tab at bottom navigation
+
+<!-- Screenshot: Stats screen with charts -->
+<!-- ![Statistics Dashboard](assets/images/screenshots/stats-screen.png) -->
+<!-- *Statistics screen showing various charts and insights* -->
 
 ### Available Charts
 
@@ -1186,4 +1234,20 @@ We're committed to helping you take control of your finances. If you find the ap
 
 *Last Updated: November 2025*
 *Finance Manager v1.0.0*
-*© 2025 Aether Apps. All rights reserved.*
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p><strong>Finance Manager</strong> - Complete Money Management</p>
+    <p>© 2025 Aether Apps. All rights reserved.</p>
+    <p>
+        <a href="https://aethersolutionsph.github.io/finance-manager-privacy/">Privacy Policy</a> |
+        <a href="https://aethersolutionsph.github.io/finance-manager-user-manual/">User Manual</a> |
+        <a href="https://aethersolutionsph.github.io/finance-manager-delete-account/">Delete Account</a> |
+        <a href="mailto:aether.solutionsph@gmail.com">Support</a>
+    </p>
+</div>
+
+</body>
+</html>
