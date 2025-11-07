@@ -11,9 +11,17 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5 !important;
     padding: 0;
     margin: 0;
+}
+
+/* Banner Image */
+.banner {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
 }
 
 /* Navigation Bar */
@@ -73,11 +81,13 @@ body {
 /* Container */
 .container {
     max-width: 800px;
-    margin: 40px auto;
-    padding: 40px;
-    background-color: white;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    border-radius: 8px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.content {
+    padding: 40px 30px;
 }
 
 /* Header */
@@ -446,48 +456,24 @@ details[open] summary {
     }
 }
 
-/* Dark Mode Support (Optional) */
+/* Force Light Mode - No Dark Mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #1a1a1a;
-        color: #e0e0e0;
+        background-color: #f5f5f5 !important;
+        color: #333 !important;
     }
 
     .container {
-        background-color: #2d2d2d;
-        color: #e0e0e0;
+        background-color: white !important;
+        color: #333 !important;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: #66b3ff;
+        color: #2c5f7f !important;
     }
 
     p, li {
-        color: #d0d0d0;
-    }
-
-    table td {
-        border-bottom-color: #444;
-    }
-
-    table tr:hover {
-        background-color: #3a3a3a;
-    }
-
-    .info-box {
-        background-color: #2c4a5a;
-    }
-
-    .warning-box {
-        background-color: #5a4a2c;
-    }
-
-    details {
-        background-color: #3a3a3a;
-    }
-
-    code {
-        background-color: #3a3a3a;
+        color: #555 !important;
     }
 }
 

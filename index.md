@@ -18,7 +18,10 @@ description: Complete guide for Finance Manager - Your personal finance tracking
     </div>
 </nav>
 
-<div class="container" markdown="1">
+<div class="container">
+    <img src="GooglePlayBanner.png" alt="Finance Manager App Banner" class="banner">
+
+    <div class="content" markdown="1">
 
 # Finance Manager - User Manual
 
@@ -1227,6 +1230,7 @@ We're committed to helping you take control of your finances. If you find the ap
 *Last Updated: November 2025*
 *Finance Manager v1.0.0*
 
+    </div>
 </div>
 
 <!-- Footer -->
