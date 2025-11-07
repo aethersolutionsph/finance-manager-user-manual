@@ -3,15 +3,7 @@ layout: default
 title: Finance Manager - User Manual
 description: Complete guide for Finance Manager - Your personal finance tracking app
 ---
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<link rel="stylesheet" href="assets/css/style.css">
 
 <!-- Navigation Bar -->
 <nav class="nav-bar">
@@ -26,7 +18,7 @@ description: Complete guide for Finance Manager - Your personal finance tracking
     </div>
 </nav>
 
-<div class="container">
+<div class="container" markdown="1">
 
 # Finance Manager - User Manual
 
@@ -1249,5 +1241,3 @@ We're committed to helping you take control of your finances. If you find the ap
     </p>
 </div>
 
-</body>
-</html>
