@@ -3,7 +3,15 @@ layout: default
 title: Finance Manager - User Manual
 description: Complete guide for Finance Manager - Your personal finance tracking app
 ---
-<link rel="stylesheet" href="assets/css/style.css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
 <!-- Navigation Bar -->
 <nav class="nav-bar">
@@ -19,9 +27,6 @@ description: Complete guide for Finance Manager - Your personal finance tracking
 </nav>
 
 <div class="container">
-    <img src="GooglePlayBanner.png" alt="Finance Manager App Banner" class="banner">
-
-    <div class="content" markdown="1">
 
 # Finance Manager - User Manual
 
@@ -84,7 +89,7 @@ The app has **4 main tabs** at the bottom:
 - **⚙️ Settings**: App preferences and account management
 
 <!-- Screenshot: Welcome screen with navigation tabs -->
-<!-- ![App Navigation](assets/images/screenshots/home-dashboard.png) -->
+![App Navigation](assets/images/screenshots/home-dashboard.png)
 <!-- *Main navigation showing the 4 tabs at the bottom* -->
 
 ---
@@ -92,7 +97,7 @@ The app has **4 main tabs** at the bottom:
 ## Home Dashboard
 
 <!-- Screenshot: Full home dashboard view -->
-<!-- ![Home Dashboard](assets/images/screenshots/home-dashboard.png) -->
+![Home Dashboard](assets/images/screenshots/home-dashboard.png)
 <!-- *Home screen showing accounts, transactions, and quick action button* -->
 
 ### What You See
@@ -144,7 +149,7 @@ The app has **4 main tabs** at the bottom:
 ### Adding a Transaction
 
 <!-- Screenshot: Add transaction form -->
-<!-- ![Add Transaction](assets/images/screenshots/add-transaction.png) -->
+![Add Transaction](assets/images/screenshots/add-transaction.png)
 <!-- *New transaction form showing all input fields* -->
 
 1. **Tap the + Button**
@@ -154,7 +159,7 @@ The app has **4 main tabs** at the bottom:
    - Choose: Expense, Income, or Transfer
 
 <!-- Screenshot: Transaction type selection -->
-<!-- ![Transaction Types](assets/images/screenshots/transaction-types.png) -->
+![Transaction Types](assets/images/screenshots/transaction-types.png)
 <!-- *Selecting between Expense, Income, and Transfer* -->
 
 3. **Fill in Details**
@@ -174,7 +179,7 @@ The app has **4 main tabs** at the bottom:
 ### Transaction Categories
 
 <!-- Screenshot: Category selection modal -->
-<!-- ![Category Selection](assets/images/screenshots/category-selection.png) -->
+![Category Selection](assets/images/screenshots/category-selection.png)
 <!-- *Category picker showing all available categories* -->
 
 **Expense Categories:**
@@ -337,7 +342,7 @@ Track your crypto holdings:
 Tap the **📈 Stats** tab at bottom navigation
 
 <!-- Screenshot: Stats screen with charts -->
-<!-- ![Statistics Dashboard](assets/images/screenshots/stats-screen.png) -->
+![Statistics Dashboard](assets/images/screenshots/stats-screen.png)
 <!-- *Statistics screen showing various charts and insights* -->
 
 ### Available Charts
@@ -1231,7 +1236,6 @@ We're committed to helping you take control of your finances. If you find the ap
 *Finance Manager v1.0.0*
 
 </div>
-</div>
 
 <!-- Footer -->
 <div class="footer">
@@ -1245,3 +1249,5 @@ We're committed to helping you take control of your finances. If you find the ap
     </p>
 </div>
 
+</body>
+</html>
