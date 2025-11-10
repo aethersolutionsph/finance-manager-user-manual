@@ -84,7 +84,7 @@ The app has **4 main tabs** at the bottom:
 - **⚙️ Settings**: App preferences and account management
 
 <!-- Screenshot: Welcome screen with navigation tabs -->
-<img src="assets/images/screenshots/home-dashboard.png" alt="App Navigation" style="max-width: 30%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
+<img src="assets/images/screenshots/home-dashboard.png" alt="App Navigation" style="max-width: 20%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
 <!-- *Main navigation showing the 4 tabs at the bottom* -->
 
 ---
@@ -92,7 +92,7 @@ The app has **4 main tabs** at the bottom:
 ## Home Dashboard
 
 <!-- Screenshot: Full home dashboard view -->
-<img src="assets/images/screenshots/home-dashboard.png" alt="Home Dashboard" style="max-width: 30%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
+<img src="assets/images/screenshots/home-dashboard.png" alt="Home Dashboard" style="max-width: 20%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
 <!-- *Home screen showing accounts, transactions, and quick action button* -->
 
 ### What You See
@@ -144,7 +144,7 @@ The app has **4 main tabs** at the bottom:
 ### Adding a Transaction
 
 <!-- Screenshot: Add transaction form -->
-<img src="assets/images/screenshots/add-transaction.png" alt="Add Transaction" style="max-width: 30%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
+<img src="assets/images/screenshots/add-transaction.png" alt="Add Transaction" style="max-width: 20%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
 <!-- *New transaction form showing all input fields* -->
 
 1. **Tap the + Button**
@@ -154,7 +154,7 @@ The app has **4 main tabs** at the bottom:
    - Choose: Expense, Income, or Transfer
 
 <!-- Screenshot: Transaction type selection -->
-<img src="assets/images/screenshots/transaction-types.png" alt="Transaction Types" style="max-width: 30%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
+<img src="assets/images/screenshots/transaction-types.png" alt="Transaction Types" style="max-width: 20%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
 <!-- *Selecting between Expense, Income, and Transfer* -->
 
 3. **Fill in Details**
@@ -174,7 +174,7 @@ The app has **4 main tabs** at the bottom:
 ### Transaction Categories
 
 <!-- Screenshot: Category selection modal -->
-<img src="assets/images/screenshots/category-selection.png" alt="Category Selection" style="max-width: 30%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
+<img src="assets/images/screenshots/category-selection.png" alt="Category Selection" style="max-width: 20%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
 <!-- *Category picker showing all available categories* -->
 
 **Expense Categories:**
@@ -337,7 +337,7 @@ Track your crypto holdings:
 Tap the **📈 Stats** tab at bottom navigation
 
 <!-- Screenshot: Stats screen with charts -->
-<img src="assets/images/screenshots/stats-screen.png" alt="Statistics Dashboard" style="max-width: 30%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
+<img src="assets/images/screenshots/stats-screen.png" alt="Statistics Dashboard" style="max-width: 20%; height: auto; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
 <!-- *Statistics screen showing various charts and insights* -->
 
 ### Available Charts
