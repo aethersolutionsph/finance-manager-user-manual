@@ -22,6 +22,9 @@ body {
     max-height: 400px;
     object-fit: cover;
     display: block;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
 /* Navigation Bar */
