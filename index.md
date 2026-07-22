@@ -8,8 +8,9 @@ description: Complete guide for Finance Manager - Your personal finance tracking
 <!-- Navigation Bar -->
 <nav class="nav-bar">
     <div class="nav-container">
-        <a href="https://aethersolutionsph.github.io/finance-manager-privacy/" class="nav-brand">Finance Manager</a>
+        <a href="https://aethersolutionsph.github.io/finance-manager/" class="nav-brand">Finance Manager</a>
         <div class="nav-links">
+            <a href="https://aethersolutionsph.github.io/finance-manager/">Home</a>
             <a href="https://aethersolutionsph.github.io/finance-manager-privacy/">Privacy Policy</a>
             <a href="https://aethersolutionsph.github.io/finance-manager-user-manual/" class="active">User Manual</a>
             <a href="https://aethersolutionsph.github.io/finance-manager-delete-account/">Delete Account</a>
@@ -1238,6 +1239,7 @@ We're committed to helping you take control of your finances. If you find the ap
     <p><strong>Finance Manager</strong> - Complete Money Management</p>
     <p>© 2025 Aether Apps. All rights reserved.</p>
     <p>
+        <a href="https://aethersolutionsph.github.io/finance-manager/">Home</a> |
         <a href="https://aethersolutionsph.github.io/finance-manager-privacy/">Privacy Policy</a> |
         <a href="https://aethersolutionsph.github.io/finance-manager-user-manual/">User Manual</a> |
         <a href="https://aethersolutionsph.github.io/finance-manager-delete-account/">Delete Account</a> |
